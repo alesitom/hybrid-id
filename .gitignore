@@ -4,3 +4,4 @@
 /.phpstan.cache/
 /.php-cs-fixer.cache
 /tmp/
+/temp/
