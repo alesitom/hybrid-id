@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [4.4.1] - 2026-09-27
+
+Maintenance release. No changes to `src/` or to the public API — upgrading from 4.4.0 is a drop-in.
+
+### Changed
+- Test toolchain moved to PHPUnit 12 (`phpunit/phpunit` dev constraint `^11.0` → `^12.0`). PHPUnit 11 reached end of bugfix support on 2026-02-06; PHPUnit 12 requires PHP >= 8.3, matching the library minimum (#258, #259)
+
+### CI
+- Bumped `actions/checkout` 6.0.2 → 7.0.1 (#254)
+- Bumped `shivammathur/setup-php` 2.37.0 → 2.37.2 (#252)
+- Bumped `codecov/codecov-action` 6.0.0 → 7.1.1 (#251, #256)
+- Corrected version comments on the `codecov-action` and `setup-php` SHA pins (#255, #257)
+
 ## [4.4.0] - 2026-04-22
 
 ### Added
