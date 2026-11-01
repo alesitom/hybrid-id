@@ -24,6 +24,14 @@
       "sessions": 1,
       "memories": 1,
       "prompts": 0
+    },
+    {
+      "id": "bb11dd49",
+      "created_by": "alesitom",
+      "created_at": "2026-11-01T12:25:05.057825247Z",
+      "sessions": 1,
+      "memories": 2,
+      "prompts": 0
     }
   ]
 }
